@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "agtma3 2",
+    "public": "public",
     "ignore": [
       "firebase.json",
       "**/.*",
