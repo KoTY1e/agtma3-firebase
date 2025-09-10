@@ -14,7 +14,7 @@ const MEMORIES = [
       "css/img/memories/kabad-ra3os/the-main2-pic.jpg",
       "css/img/memories/kabad-ra3os/bus-pic.jpg",
       "css/img/memories/kabad-ra3os/mosque-pic.JPG",
-      "css/img/memories/kabad-ra3os/hymns.jpg",
+      "css/img/memories/kabad-ra3os/hymns.JPG",
       "css/img/memories/kabad-ra3os/random.JPG",
       "css/img/memories/kabad-ra3os/t-marium-with-cups.jpg",
       "css/img/memories/kabad-ra3os/u-poules-with-cups.jpg",
