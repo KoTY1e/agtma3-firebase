@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Short+Stack&amp;family=Homemade+Apple&amp;display=swap"
+    />
+    <link rel="stylesheet" href="./css/memories.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+
+    <title>Memories</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="title">
+          <img src="./css/img/logo.png" style="width: 35px; height: 35px" />
+        </div>
+        <div class="Back-button"><a href="./page.html" class="back">></a></div>
+        <div class="toolbar" role="search">
+          <label class="field">
+            <span class="sr-only">بحث</span>
+            <input
+              id="q"
+              class="input"
+              type="search"
+              placeholder="Search"
+              autocomplete="off"
+            />
+          </label>
+          <label class="field">
+            <span class="sr-only">السنة</span>
+            <select id="year" class="select">
+              <option value="">All years</option>
+            </select>
+            <span class="chev">▾</span>
+          </label>
+          <label class="field">
+            <span class="sr-only">الترتيب</span>
+            <select id="sort" class="select">
+              <option value="newest">Newest</option>
+              <option value="oldest">Oldest</option>
+            </select>
+            <span class="chev">▾</span>
+          </label>
+        </div>
+      </header>
+
+      <main id="grid" class="grid" aria-live="polite"></main>
+      <p id="empty" class="empty" hidden>No matching results.</p>
+    </div>
+
+    <!-- Viewer Modal -->
+    <dialog id="viewer">
+      <div class="viewer-head">
+        <div>
+          <h3 id="viewerTitle" style="margin: 0 0 4px; font-size: 18px"></h3>
+          <div
+            id="viewerMeta"
+            style="color: var(--muted); font-size: 14px"
+          ></div>
+        </div>
+        <button class="close-btn" onclick="viewer.close()">Close</button>
+      </div>
+      <div id="viewerGallery" class="gallery"></div>
+    </dialog>
+    <script src="./js/memories.js"></script>
+  </body>
+</html>
