@@ -32,7 +32,7 @@ const MEMORIES = [
       "css/img/memories/kabad-ra3os/dr-baher.jpg",
       "css/img/memories/kabad-ra3os/game-pic.JPG",
     ],
-    title: "اليوم الروحي كبد 20225",
+    title: "اليوم الروحي كبد 2025",
     date: "2025-09-04",
     desc: "رحله شباب ناشئ 2025",
   },
